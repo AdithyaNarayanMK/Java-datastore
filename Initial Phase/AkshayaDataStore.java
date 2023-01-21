@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class yourname {
+public class AkshayaDataStore {
     public static void main(String[] args) {
         String fileName = "keyvalue.txt";
         Scanner scanner = new Scanner(System.in);

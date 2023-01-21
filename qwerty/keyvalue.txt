@@ -1,5 +1,0 @@
-c=3
-f=4
-name=sab
-age=20
-roll=002

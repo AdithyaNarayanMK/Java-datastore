@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.util.HashMap;
 import java.io.*;
 
-public class KeyValue2 extends JFrame {
+public class PaulDataStore extends JFrame {
     private HashMap<String, String> map;
     private JTextField keyField;
     private JTextField valueField;
@@ -13,7 +13,7 @@ public class KeyValue2 extends JFrame {
     private JButton deleteButton;
     private JTextArea resultArea;
 
-    public KeyValue2() {
+    public PaulDataStore() {
         map = new HashMap<String, String>();
         keyField = new JTextField(30);
         valueField = new JTextField(30);
@@ -125,7 +125,7 @@ public class KeyValue2 extends JFrame {
     }
 
     public static void main(String[] args) {
-        KeyValue2 gui = new KeyValue2();
+        PaulDataStore gui = new PaulDataStore();
         gui.readFromFile("key_value.txt");
         gui.writetoFile("key_value.txt");
     }
